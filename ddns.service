@@ -1,0 +1,14 @@
+[Unit]
+Description = DDNS-Server
+After = network.target
+
+[Service]
+ExecStart = /path/to/exec
+WorkingDirectory=/path/to/wd
+Restart = always
+RestartSec = 10
+User=user
+Group=group
+
+[Install]
+WantedBy = multi-user.target
