@@ -4,6 +4,7 @@ The server component of a python based tls encrypted ddns serivce
 Version 0.1.0a1  
 &copy; 2020 Tim Schlottmann  
 
+For the client please look at [dyndns-client](https://github.com/TheTimmoth/dyndns-client)  
 
 ## Hint
 Please note that the client will be available through pip in the near future with release 0.1.0a1  
@@ -22,5 +23,3 @@ After installation please run
 ```
 python3 ddns_server/__main__.py
 ```
-
-For the client please look at [dyndns-client](https://github.com/TheTimmoth/dyndns-client)
